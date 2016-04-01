@@ -1,0 +1,10 @@
+ros-indigo-ur3-moveit-config (1.1.6-0trusty) trusty; urgency=high
+
+  * add missing dependency for moveit_simple_controller_manager
+  * apply default RRTConnect to ur3
+  * add moveit_config for ur3
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+
