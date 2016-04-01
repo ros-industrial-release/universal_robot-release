@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>ur_driver</name>
-  <version>1.1.5</version>
+  <version>1.1.6</version>
   <description>
       Driver for the UR5/10 arm based on the Polyscope control scheme.
   </description>
@@ -15,6 +15,8 @@
   <url type="website">http://ros.org/wiki/ur_driver</url>
 
   <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  
   <run_depend>rospy</run_depend>
   <run_depend>actionlib</run_depend>
   <run_depend>control_msgs</run_depend>
@@ -22,4 +24,5 @@
   <run_depend>trajectory_msgs</run_depend>
   <run_depend>ur_msgs</run_depend>
   <run_depend>python-lxml</run_depend>
+  <run_depend>dynamic_reconfigure</run_depend>
 </package>
