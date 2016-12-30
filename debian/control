@@ -1,0 +1,12 @@
+Source: ros-indigo-ur-bringup
+Section: misc
+Priority: extra
+Maintainer: Alexander Bubeck <aub@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/ur_bringup
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ur-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-tf2-ros, ros-indigo-ur-description, ros-indigo-ur-driver
+Description: The ur_bringup package
