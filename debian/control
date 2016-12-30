@@ -1,0 +1,12 @@
+Source: ros-indigo-ur-description
+Section: misc
+Priority: extra
+Maintainer: Alexander Bubeck <aub@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/ur_description
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ur-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-urdf
+Description: URDF description for Universal UR5/10 robot arms
