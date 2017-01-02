@@ -1,0 +1,12 @@
+Source: ros-indigo-ur5-moveit-config
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <fxm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-ur-description
+Homepage: http://moveit.ros.org/
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ur5-moveit-config
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-joint-state-publisher, ros-indigo-moveit-fake-controller-manager, ros-indigo-moveit-planners-ompl, ros-indigo-moveit-ros-move-group, ros-indigo-moveit-ros-visualization, ros-indigo-moveit-simple-controller-manager, ros-indigo-robot-state-publisher, ros-indigo-ur-description, ros-indigo-xacro
+Description: An automatically generated package with all the configuration and launch files for using the ur5 with the MoveIt Motion Planning Framework
