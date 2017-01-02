@@ -1,0 +1,12 @@
+Source: ros-indigo-universal-robot
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <fxm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://ros.org/wiki/universal_robot
+Standards-Version: 3.9.2
+
+Package: ros-indigo-universal-robot
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ur-bringup, ros-indigo-ur-description, ros-indigo-ur-driver, ros-indigo-ur-gazebo, ros-indigo-ur-kinematics, ros-indigo-ur-msgs, ros-indigo-ur10-moveit-config, ros-indigo-ur3-moveit-config, ros-indigo-ur5-moveit-config
+Description: Drivers, description, and utilities for Universal Robot Arms.
