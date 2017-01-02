@@ -1,0 +1,12 @@
+Source: ros-indigo-ur-driver
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <fxm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-dynamic-reconfigure
+Homepage: http://ros.org/wiki/ur_driver
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ur-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-lxml, ros-indigo-actionlib, ros-indigo-control-msgs, ros-indigo-dynamic-reconfigure, ros-indigo-rospy, ros-indigo-sensor-msgs, ros-indigo-trajectory-msgs, ros-indigo-ur-msgs
+Description: Driver for the UR5/10 arm based on the Polyscope control scheme.
