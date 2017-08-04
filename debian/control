@@ -1,0 +1,12 @@
+Source: ros-kinetic-ur-gazebo
+Section: misc
+Priority: extra
+Maintainer: Felix Messmer <fxm@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/ur_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ur-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-controller-manager, ros-kinetic-effort-controllers, ros-kinetic-gazebo-ros, ros-kinetic-gazebo-ros-control, ros-kinetic-joint-state-controller, ros-kinetic-joint-trajectory-controller, ros-kinetic-robot-state-publisher, ros-kinetic-ur-description
+Description: Gazebo wrapper for the Universal UR5/10 robot arms.
