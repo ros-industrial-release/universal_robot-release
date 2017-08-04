@@ -1,3 +1,36 @@
+## universal_robot (indigo) - 1.1.10-0
+
+The packages in the `universal_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release universal_robot --track indigo --rosdistro indigo` on `Fri, 04 Aug 2017 07:26:17 -0000`
+
+These packages were released:
+- `universal_robot`
+- `ur10_moveit_config`
+- `ur3_moveit_config`
+- `ur5_moveit_config`
+- `ur_bringup`
+- `ur_description`
+- `ur_driver`
+- `ur_gazebo`
+- `ur_kinematics`
+- `ur_msgs`
+
+Version of package(s) in repository `universal_robot`:
+
+- upstream repository: https://github.com/ros-industrial/universal_robot.git
+- release repository: https://github.com/ros-industrial-release/universal_robot-release.git
+- rosdistro version: `1.1.9-0`
+- old version: `1.1.9-0`
+- new version: `1.1.10-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.7`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## universal_robot (indigo) - 1.1.9-0
 
 The packages in the `universal_robot` repository were released into the `indigo` distro by running `/usr/bin/bloom-release universal_robot --track indigo --rosdistro indigo` on `Mon, 02 Jan 2017 20:01:35 -0000`
