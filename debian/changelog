@@ -1,0 +1,62 @@
+ros-kinetic-ur-gazebo (1.2.0-0xenial) xenial; urgency=high
+
+  * Remove dependency on ros_controllers metapackage.
+    As per http://www.ros.org/reps/rep-0127.html, packages are not allowed to
+    depend on metapackages.
+  * Contributors: Miguel Prada
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 03 Aug 2017 22:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.1.9-0xenial) xenial; urgency=high
+
+  * No changes.
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 01 Jan 2017 23:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.1.8-0xenial) xenial; urgency=high
+
+  * ur_gazebo: escape underscore in changelog (#279 <https://github.com/ros-industrial/universal_robot/issues/279>).
+  * all: update maintainers.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 29 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.1.7-0xenial) xenial; urgency=high
+
+  * ur_gazebo: add controller_manager as run dependency.
+  * Contributors: Hans-Joachim Krauch
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 28 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.1.6-0xenial) xenial; urgency=high
+
+  * provide launch files for ur3
+  * use controller_manager spawn
+  * allow to start gazebo without gui
+  * adjust controllers to new hardwareInterface - affects simulation only
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.0.2-0xenial) xenial; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-kinetic-ur-gazebo (1.0.1-0xenial) xenial; urgency=high
+
+  * adapt launch files in order to be able to use normal/limited xacro
+  * updates for latest gazebo under hydro
+  * Contributors: ipa-fxm
+  * Added definitions for adding tergets in install folder. Issue #10 <https://github.com/ros-industrial/universal_robot/issues/10>.
+  * Added definitions for adding tergets in install folder. Issue #10 <https://github.com/ros-industrial/universal_robot/issues/10>.
+  * Updated to catkin.  ur_driver's files were added to nested Python directory for including in other packages.
+  * removed ``arm_`` prefix from joint names in gazebo controller config
+  * Renamed packages and new groovy version
+  * Added ur10 and renamed packages
+  * Contributors: IPR-SR2, Kelsey, Mathias Lüdtke, ipa-nhg, robot
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+
