@@ -1,0 +1,40 @@
+ros-kinetic-ur3-moveit-config (1.2.0-0xenial) xenial; urgency=high
+
+  * Fix Deprecated warning in MoveIt: parameter moved into namespace 'trajectory_execution'
+  * Contributors: Dave Coleman
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 03 Aug 2017 22:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.9-0xenial) xenial; urgency=high
+
+  * use '--inorder' for jade+ xacro as well.
+  * make RViz load MoveIt display by default.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 01 Jan 2017 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.8-0xenial) xenial; urgency=high
+
+  * all: update maintainers.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 29 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.7-0xenial) xenial; urgency=high
+
+  * Don't depend on moveit_plugins metapackage
+  * Fix xacro warnings in Jade
+  * Contributors: Dave Coleman, Jon Binney
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 28 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.6-0xenial) xenial; urgency=high
+
+  * add missing dependency for moveit_simple_controller_manager
+  * apply default RRTConnect to ur3
+  * add moveit_config for ur3
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+
