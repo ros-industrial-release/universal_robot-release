@@ -2,11 +2,15 @@
 Changelog for package ur_bringup
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.11 (2018-01-06)
--------------------
+1.2.1 (2018-01-06)
+------------------
+* Merge pull request `#322 <https://github.com//ros-industrial/universal_robot/issues/322>`_ from gavanderhoorn/use_robot_state_publisher
+  driver: don't use deprecated robot_state binary.
+* driver: don't use deprecated robot_state binary.
+* Contributors: Felix Messmer, gavanderhoorn
 
-1.1.10 (2017-08-04)
--------------------
+1.2.0 (2017-08-04)
+------------------
 
 1.1.9 (2017-01-02)
 ------------------

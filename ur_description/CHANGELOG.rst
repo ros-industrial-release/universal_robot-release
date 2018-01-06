@@ -2,15 +2,24 @@
 Changelog for package ur_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.11 (2018-01-06)
--------------------
-* Merge pull request `#320 <https://github.com//ros-industrial/universal_robot/issues/320>`_ from gavanderhoorn/bp_268_indigo-devel
-  Backport `#268 <https://github.com//ros-industrial/universal_robot/issues/268>`_ to Indigo
+1.2.1 (2018-01-06)
+------------------
+* Merge pull request `#329 <https://github.com//ros-industrial/universal_robot/issues/329>`_ from tecnalia-medical-robotics/joint_limits
+  Homogenize xacro macro arguments.
+* Merge pull request `#332 <https://github.com//ros-industrial/universal_robot/issues/332>`_ from davetcoleman/kinetic_hw_iface_warning
+  Remove UR3 ROS Control Hardware Interface warning
+* Remove UR3 ROS Control Hardware Interface warning
+* Extend changes to '_robot.urdf.xacro' variants as well.
+* Homogenize xacro macro arguments.
+  Joint limits for the limited version could be set using arguments for the UR10
+  but not for the UR3 and UR5. Same lower and upper limit arguments are added to
+  the UR3 and UR5 xacro macros.
 * Fix elbow joint limits (`#268 <https://github.com//ros-industrial/universal_robot/issues/268>`_)
-* Contributors: Beatriz Leon, G.A. vd. Hoorn
+* Remove warning 'redefining global property: pi' (Jade+) (`#315 <https://github.com//ros-industrial/universal_robot/issues/315>`_)
+* Contributors: Beatriz Leon, Dave Coleman, Felix Messmer, Miguel Prada
 
-1.1.10 (2017-08-04)
--------------------
+1.2.0 (2017-08-04)
+------------------
 
 1.1.9 (2017-01-02)
 ------------------
