@@ -1,0 +1,55 @@
+ros-indigo-universal-robot (1.1.11-0trusty) trusty; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Fri, 05 Jan 2018 23:00:00 -0000
+
+ros-indigo-universal-robot (1.1.10-0trusty) trusty; urgency=high
+
+
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 03 Aug 2017 22:00:00 -0000
+
+ros-indigo-universal-robot (1.1.9-0trusty) trusty; urgency=high
+
+  * No changes.
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 01 Jan 2017 23:00:00 -0000
+
+ros-indigo-universal-robot (1.1.8-0trusty) trusty; urgency=high
+
+  * all: update maintainers.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 29 Dec 2016 23:00:00 -0000
+
+ros-indigo-universal-robot (1.1.7-0trusty) trusty; urgency=high
+
+  * No changes.
+
+ -- Alexander Bubeck <aub@ipa.fhg.de>  Wed, 28 Dec 2016 23:00:00 -0000
+
+ros-indigo-universal-robot (1.1.6-0trusty) trusty; urgency=high
+
+  * add moveit_config for ur3
+  * Contributors: ipa-fxm
+
+ -- Alexander Bubeck <aub@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+ros-indigo-universal-robot (1.0.2-0trusty) trusty; urgency=high
+
+  * Merge branch 'hydro-devel' of github.com:ros-industrial/universal_robot into hydro
+  * added missing dependency
+  * Contributors: Florian Weisshardt, ipa-fxm
+
+ -- Alexander Bubeck <aub@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+ros-indigo-universal-robot (1.0.1-0trusty) trusty; urgency=high
+
+  * Added all packages in dependency list of metapackage.
+  * Updated to catkin.  ur_driver's files were added to nested Python directory for including in other packages.
+  * Contributors: IPR-SR2, Kelsey
+
+ -- Alexander Bubeck <aub@ipa.fhg.de>  Sun, 30 Mar 2014 22:00:00 -0000
+
+
