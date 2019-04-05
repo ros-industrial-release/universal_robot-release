@@ -1,0 +1,12 @@
+Source: ros-kinetic-universal-robots
+Section: misc
+Priority: extra
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://wiki.ros.org/universal_robots
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-universal-robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-ur-bringup, ros-kinetic-ur-description, ros-kinetic-ur-driver, ros-kinetic-ur-e-description, ros-kinetic-ur-e-gazebo, ros-kinetic-ur-gazebo, ros-kinetic-ur-kinematics, ros-kinetic-ur-msgs, ros-kinetic-ur10-e-moveit-config, ros-kinetic-ur10-moveit-config, ros-kinetic-ur3-e-moveit-config, ros-kinetic-ur3-moveit-config, ros-kinetic-ur5-e-moveit-config, ros-kinetic-ur5-moveit-config
+Description: ROS-Industrial support for Universal Robots manipulators (metapackage).

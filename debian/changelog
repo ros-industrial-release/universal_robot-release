@@ -1,0 +1,8 @@
+ros-kinetic-universal-robots (1.2.5-0xenial) xenial; urgency=high
+
+  * First release (of this package)
+  * Contributors: gavanderhoorn, Nadia Hammoudeh García
+
+ -- G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>  Thu, 04 Apr 2019 22:00:00 -0000
+
+
