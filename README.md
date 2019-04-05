@@ -1,3 +1,42 @@
+## universal_robot (kinetic) - 1.2.5-0
+
+The packages in the `universal_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release universal_robot --rosdistro kinetic` on `Fri, 05 Apr 2019 14:41:07 -0000`
+
+These packages were released:
+- `universal_robot`
+- `universal_robots`
+- `ur10_e_moveit_config`
+- `ur10_moveit_config`
+- `ur3_e_moveit_config`
+- `ur3_moveit_config`
+- `ur5_e_moveit_config`
+- `ur5_moveit_config`
+- `ur_bringup`
+- `ur_description`
+- `ur_driver`
+- `ur_e_description`
+- `ur_e_gazebo`
+- `ur_gazebo`
+- `ur_kinematics`
+- `ur_msgs`
+
+Version of package(s) in repository `universal_robot`:
+
+- upstream repository: https://github.com/ros-industrial/universal_robot.git
+- release repository: https://github.com/ros-industrial-release/universal_robot-release.git
+- rosdistro version: `1.2.1-0`
+- old version: `1.2.1-0`
+- new version: `1.2.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## universal_robot (kinetic) - 1.2.1-0
 
 The packages in the `universal_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release universal_robot --track kinetic --rosdistro kinetic` on `Sat, 06 Jan 2018 15:36:30 -0000`
