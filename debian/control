@@ -1,0 +1,12 @@
+Source: ros-kinetic-ur-bringup
+Section: misc
+Priority: optional
+Maintainer: G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roslaunch
+Homepage: http://ros.org/wiki/ur_bringup
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ur-bringup
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-robot-state-publisher, ros-kinetic-tf2-ros, ros-kinetic-ur-description, ros-kinetic-ur-driver
+Description: The ur_bringup package
