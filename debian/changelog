@@ -1,0 +1,70 @@
+ros-kinetic-ur3-moveit-config (1.2.7-1xenial) xenial; urgency=high
+
+
+
+ -- G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>  Fri, 22 Nov 2019 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.2.6-1xenial) xenial; urgency=high
+
+  * Migrated all package.xml files to format=2 (#439 <https://github.com/ros-industrial/universal_robot/issues/439>)
+  * Contributors: Felix Mauch, Qiang Qiu
+
+ -- G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>  Mon, 18 Nov 2019 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.2.5-1xenial) xenial; urgency=high
+
+  * Update maintainer listing: add Miguel (#410 <https://github.com/ros-industrial/universal_robot/issues/410>)
+  * MoveGroupExecuteService is Deprecated by MoveIt! (#391 <https://github.com/ros-industrial/universal_robot/issues/391>)
+  * Update maintainer and author information.
+  * Add roslaunch tests (#362 <https://github.com/ros-industrial/universal_robot/issues/362>)
+  * Contributors: gavanderhoorn, Nadia Hammoudeh García, 薯片半价
+
+ -- G.A. vd. Hoorn <g.a.vanderhoorn@tudelft.nl>  Thu, 04 Apr 2019 22:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.2.1-1xenial) xenial; urgency=high
+
+  * Reduce longest valid segment fraction to accomodate non-limited version of the UR5 (#266 <https://github.com//ros-industrial/universal_robot/issues/266>)
+  * Contributors: Scott Paulin
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Fri, 05 Jan 2018 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.2.0-1xenial) xenial; urgency=high
+
+  * Fix Deprecated warning in MoveIt: parameter moved into namespace 'trajectory_execution'
+  * Contributors: Dave Coleman
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 03 Aug 2017 22:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.9-1xenial) xenial; urgency=high
+
+  * use '--inorder' for jade+ xacro as well.
+  * make RViz load MoveIt display by default.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Sun, 01 Jan 2017 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.8-1xenial) xenial; urgency=high
+
+  * all: update maintainers.
+  * Contributors: gavanderhoorn
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 29 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.7-1xenial) xenial; urgency=high
+
+  * Don't depend on moveit_plugins metapackage
+  * Fix xacro warnings in Jade
+  * Contributors: Dave Coleman, Jon Binney
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Wed, 28 Dec 2016 23:00:00 -0000
+
+ros-kinetic-ur3-moveit-config (1.1.6-1xenial) xenial; urgency=high
+
+  * add missing dependency for moveit_simple_controller_manager
+  * apply default RRTConnect to ur3
+  * add moveit_config for ur3
+  * Contributors: ipa-fxm
+
+ -- Felix Messmer <fxm@ipa.fhg.de>  Thu, 31 Mar 2016 22:00:00 -0000
+
+
