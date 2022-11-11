@@ -1,0 +1,12 @@
+Source: ros-melodic-universal-robots
+Section: misc
+Priority: optional
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/universal_robots
+Standards-Version: 3.9.2
+
+Package: ros-melodic-universal-robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ur-description, ros-melodic-ur-gazebo, ros-melodic-ur10-moveit-config, ros-melodic-ur10e-moveit-config, ros-melodic-ur16e-moveit-config, ros-melodic-ur3-moveit-config, ros-melodic-ur3e-moveit-config, ros-melodic-ur5-moveit-config, ros-melodic-ur5e-moveit-config
+Description: ROS-Industrial support for Universal Robots manipulators (metapackage).
