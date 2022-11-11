@@ -1,3 +1,39 @@
+## universal_robots (melodic) - 1.3.1-1
+
+The packages in the `universal_robots` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic universal_robots --edit` on `Fri, 11 Nov 2022 09:42:13 -0000`
+
+These packages were released:
+- `universal_robots`
+- `ur10_moveit_config`
+- `ur10e_moveit_config`
+- `ur16e_moveit_config`
+- `ur3_moveit_config`
+- `ur3e_moveit_config`
+- `ur5_moveit_config`
+- `ur5e_moveit_config`
+- `ur_description`
+- `ur_gazebo`
+
+These packages were explicitly ignored:
+- `ur_kinematics`
+
+Version of package(s) in repository `universal_robots`:
+
+- upstream repository: https://github.com/ros-industrial/universal_robot.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.3.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## universal_robot (kinetic) - 1.2.7-1
 
 The packages in the `universal_robot` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release universal_robot --rosdistro kinetic` on `Sat, 23 Nov 2019 14:22:27 -0000`
