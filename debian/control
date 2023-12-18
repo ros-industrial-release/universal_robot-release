@@ -1,0 +1,12 @@
+Source: ros-noetic-universal-robots
+Section: misc
+Priority: optional
+Maintainer: G.A. vd. Hoorn (TU Delft Robotics Institute) <g.a.vanderhoorn@tudelft.nl>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://wiki.ros.org/universal_robots
+Standards-Version: 3.9.2
+
+Package: ros-noetic-universal-robots
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-ur-description, ros-noetic-ur-gazebo, ros-noetic-ur10-moveit-config, ros-noetic-ur10e-moveit-config, ros-noetic-ur16e-moveit-config, ros-noetic-ur20-moveit-config, ros-noetic-ur3-moveit-config, ros-noetic-ur3e-moveit-config, ros-noetic-ur5-moveit-config, ros-noetic-ur5e-moveit-config
+Description: ROS-Industrial support for Universal Robots manipulators (metapackage).
