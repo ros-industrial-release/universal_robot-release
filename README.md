@@ -1,3 +1,40 @@
+## universal_robots (noetic) - 1.3.2-1
+
+The packages in the `universal_robots` repository were released into the `noetic` distro by running `/usr/bin/bloom-release universal_robots --rosdistro noetic --track noetic --edit` on `Mon, 18 Dec 2023 10:27:01 -0000`
+
+These packages were released:
+- `universal_robots`
+- `ur10_moveit_config`
+- `ur10e_moveit_config`
+- `ur16e_moveit_config`
+- `ur20_moveit_config`
+- `ur3_moveit_config`
+- `ur3e_moveit_config`
+- `ur5_moveit_config`
+- `ur5e_moveit_config`
+- `ur_description`
+- `ur_gazebo`
+
+These packages were explicitly ignored:
+- `ur_kinematics`
+
+Version of package(s) in repository `universal_robots`:
+
+- upstream repository: https://github.com/ros-industrial/universal_robot.git
+- release repository: https://github.com/ros-industrial-release/universal_robot-release.git
+- rosdistro version: `1.3.1-1`
+- old version: `1.3.1-1`
+- new version: `1.3.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## universal_robots (noetic) - 1.3.1-1
 
 The packages in the `universal_robots` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic universal_robots --edit` on `Fri, 11 Nov 2022 09:54:40 -0000`
