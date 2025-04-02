@@ -2,6 +2,9 @@
 Changelog for package ur30_moveit_config
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2025-03-31)
+------------------
+
 1.3.3 (2024-04-08)
 ------------------
 * UR30 description and meshes (`#674 <https://github.com/ros-industrial/universal_robot/issues/674>`_)
