@@ -2,6 +2,9 @@
 Changelog for package ur_kinematics
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.4.0 (2025-03-31)
+------------------
+
 1.3.3 (2024-04-08)
 ------------------
 * Changed include for Boost in ur_kinematics (`#675 <https://github.com/ros-industrial/universal_robot/issues/675>`_)
